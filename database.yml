@@ -1,0 +1,12 @@
+development: &pgsql
+  adapter: postgresql
+  database: msf_database
+  username: msf_user
+  password: pleasechangeme
+  host: postgres-msf
+  port: 5432
+  pool: 200
+  timeout: 5
+
+production: &production
+  <<: *pgsql
