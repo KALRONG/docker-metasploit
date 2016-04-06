@@ -25,19 +25,19 @@ development: &pgsql
 
 production: &production
   <<: *pgsql
-´´´
+```
 
 If you want to change any of this you can either connect to the docker and modify the database.yml inside:
 
 ```
 docker run -it kalrong/metasploit-framework /bin/bash
-´´´
+```
 
 Or you can clone the git repository, modify the database.yml file and build the image yourself:
 
 ```
 docker build -t kalrong/metasploit-framework .
-´´´
+```
 
 Updates:
 --------
