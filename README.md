@@ -39,6 +39,15 @@ Or you can clone the git repository, modify the database.yml file and build the 
 docker build -t kalrong/metasploit-framework .
 ```
 
+Usage:
+-----
+
+You may want to map several individual ports or use --net=host to map all of them to the docker if you are gonna use payloads:
+
+```
+docker run --rm -it [-p <port>:<port>] [--net=host] kalrong/metasploit-framework
+```
+
 Updates:
 --------
 
