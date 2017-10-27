@@ -6,7 +6,7 @@ Debian Stretch based metasploit docker image.
 Important consideration:
 -----
 
-By default this image connect to a postres server called postgres-msf, I run a separated docker the official postgres image.
+By default this image connect to a postgres server called postgres-msf, I run a separated docker the official postgres image.
 
 IT WILL WORK EVEN WITHOUT THE SERVER BUT YOU WILL SEE AN ERROR TRYING TO CONNECT TO THE DB AT START.
 

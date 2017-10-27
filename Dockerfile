@@ -1,5 +1,5 @@
 FROM debian:stretch-slim
-MAINTAINER KALRONG <kalrong@kalrong.net>
+MAINTAINER KALRONG <xrb@kalrong.net>
 
 WORKDIR /root
 COPY database.yml /root/database.yml
